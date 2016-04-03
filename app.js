@@ -1,6 +1,6 @@
 'use strict';
 
-var react = require('react-native');
+var React = require('react-native');
 var Home = require('./home.ios');
 var Profile = require('./profile.ios');
 
