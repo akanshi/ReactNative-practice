@@ -40,4 +40,4 @@ class home extends Component(){
 		)
 	}
 };
-module.exports=HOME;
+module.exports=home;

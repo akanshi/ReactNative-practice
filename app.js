@@ -18,7 +18,9 @@ class app extends Component(){
 		this.state={
 			selectedTab:'home'
 		};
-		
+	}
+		render(){
+			return(
 		<TabBarIOS selectedTab=this.state.selectedTab>
 		
 		<TabBarIOS.Item
@@ -44,11 +46,7 @@ class app extends Component(){
 		</TabBarIOS.Item>
 		
 		</TabBarIOS>
-	}
-	render(){
-		return(
-		)
-	}
+	)
 };
 
 AppRegistery.registerComponet('app',()=> app);
